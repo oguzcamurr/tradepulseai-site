@@ -17,11 +17,23 @@ h1 {
   letter-spacing: -0.5px;
 }
 
+h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
 p {
   max-width: 620px;
   margin: 0 auto 20px auto;
   opacity: 0.85;
   line-height: 1.6;
+}
+
+.tech-strip {
+  margin-top: 18px;
+  font-size: 14px;
+  opacity: 0.6;
+  letter-spacing: 0.5px;
 }
 
 .button {
@@ -49,9 +61,20 @@ section {
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-h2 {
-  font-size: 28px;
-  margin-bottom: 12px;
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 12px 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+.cta {
+  background: radial-gradient(circle at center, rgba(0,200,255,0.08), transparent 70%);
 }
 
 footer {

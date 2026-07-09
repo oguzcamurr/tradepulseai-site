@@ -4,35 +4,73 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Support — TradePulse AI</title>
+  <meta name="description" content="Get help with TradePulse AI. Contact our support team for questions, issues, or feedback about the app." />
+  <meta name="theme-color" content="#05060d" />
+  <link rel="canonical" href="https://tradepulseai.app/support.html" />
+  <link rel="icon" type="image/png" href="assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header>
-    <h1>Support</h1>
-    <p>Need help with TradePulse AI? We’re here for you.</p>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="siteNav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-192.png" alt="" width="30" height="30" />
+        <span class="word">TradePulse <em>AI</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#signals">Signals</a></li>
+        <li><a href="index.html#trust">How it works</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+      </ul>
+      <a class="badge-link is-small" href="https://apps.apple.com/us/app/tradepulse-ai/id6756778055" aria-label="Download on the App Store">
+        <img src="assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
+      </a>
+    </div>
   </header>
 
-  <section>
-    <p>
-      If you have any questions, issues, or feedback about TradePulse AI,
-      feel free to contact us at any time.
-    </p>
+  <main id="main">
+    <section class="legal-hero">
+      <div class="wrap">
+        <h1>Support</h1>
+        <p>Need help with TradePulse AI? We're here for you.</p>
+      </div>
+    </section>
 
-    <p>
-      <strong>Email:</strong><br />
-      <a href="mailto:support@tradepulseai.app">
-        support@tradepulseai.app
-      </a>
-    </p>
+    <section class="legal-body">
+      <div class="wrap">
+        <p>
+          If you have any questions, issues, or feedback about TradePulse AI,
+          feel free to contact us at any time.
+        </p>
 
-    <p>
-      We typically respond within 24–48 hours.
-    </p>
-  </section>
+        <p>
+          <strong>Email:</strong><br />
+          <a href="mailto:support@tradepulseai.app">support@tradepulseai.app</a>
+        </p>
+
+        <p>We typically respond within 24–48 hours.</p>
+      </div>
+    </section>
+  </main>
 
   <footer>
-    <a href="/">← Back to Home</a>
+    <div class="wrap">
+      <a class="footer-brand" href="index.html">
+        <img src="assets/icons/icon-192.png" alt="" width="24" height="24" />
+        TradePulse AI
+      </a>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </div>
+      <p class="footer-fine">© <span id="year"></span> TradePulse AI. All rights reserved.</p>
+    </div>
   </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>

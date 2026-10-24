@@ -1,18 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://tradepulseai.app/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://www.tradepulseai.app/</loc>
+    <lastmod>2026-10-24</lastmod>
   </url>
   <url>
-    <loc>https://tradepulseai.app/support.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://www.tradepulseai.app/learn/</loc>
+    <lastmod>2026-10-24</lastmod>
   </url>
   <url>
-    <loc>https://tradepulseai.app/privacy.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <loc>https://www.tradepulseai.app/learn/what-is-rsi-crypto.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tradepulseai.app/learn/crypto-market-regime-trending-vs-ranging.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tradepulseai.app/support.html</loc>
+    <lastmod>2026-10-24</lastmod>
+  </url>
+  <url>
+    <loc>https://www.tradepulseai.app/privacy.html</loc>
+    <lastmod>2026-10-24</lastmod>
   </url>
 </urlset>

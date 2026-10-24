@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Read a Crypto Signal Score (and What Confluence Means)</title>
+  <meta name="description" content="What a crypto signal score or confidence number really means: probability vs composite scores, confluence between indicators, and questions to ask before trusting any score." />
+  <meta name="theme-color" content="#05060d" />
+  <meta name="apple-itunes-app" content="app-id=6756778055" />
+  <link rel="canonical" href="https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html" />
+  <link rel="icon" type="image/png" href="../assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="TradePulse AI" />
+  <meta property="og:title" content="How to Read a Crypto Signal Score (and What Confluence Means)" />
+  <meta property="og:description" content="What a crypto signal score or confidence number really means: probability vs composite scores, confluence between indicators, and questions to ask before trusting any score." />
+  <meta property="og:url" content="https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html" />
+  <meta property="og:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="How to Read a Crypto Signal Score (and What Confluence Means)" />
+  <meta name="twitter:description" content="What a crypto signal score or confidence number really means: probability vs composite scores, confluence between indicators, and questions to ask before trusting any score." />
+  <meta name="twitter:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
+  <link rel="stylesheet" href="../style.css" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html#article",
+      "headline": "How to read a crypto signal score",
+      "description": "What a crypto signal score or confidence number really means: probability vs composite scores, confluence between indicators, and questions to ask before trusting any score.",
+      "url": "https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html",
+      "mainEntityOfPage": "https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
+      "inLanguage": "en",
+      "image": "https://www.tradepulseai.app/assets/img/og-image.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "TradePulse AI",
+        "url": "https://www.tradepulseai.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TradePulse AI",
+        "url": "https://www.tradepulseai.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.tradepulseai.app/assets/icons/icon-512.png"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.tradepulseai.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://www.tradepulseai.app/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "How to read a signal score",
+          "item": "https://www.tradepulseai.app/learn/crypto-signal-score-confluence.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="siteNav">
+    <div class="wrap">
+      <a class="brand" href=".././">
+        <img src="../assets/icons/icon-192.png" alt="" width="30" height="30" />
+        <span class="word">TradePulse <em>AI</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href=".././#signals">Signals</a></li>
+        <li><a href=".././#how">How it works</a></li>
+        <li><a href="../learn/">Learn</a></li>
+        <li><a href=".././#faq">FAQ</a></li>
+      </ul>
+      <a class="badge-link is-small" href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-learn-score&amp;mt=8" data-ct="web-learn-score" aria-label="Download TradePulse AI on the App Store">
+        <img src="../assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="article-hero">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="./">Learn</a> / <span>How to read a signal score</span></nav>
+        <h1>How to read a crypto signal score</h1>
+        <p class="lede">Probability scores, composite scores and confluence: what a signal&#x27;s number can and can&#x27;t tell you.</p>
+        <p class="meta-line">TradePulse AI guides · Published <time datetime="2026-10-24">24 October 2026</time></p>
+      </div>
+    </section>
+
+    <article class="article-body">
+      <div class="wrap">
+<p>Many crypto apps and channels attach a number to their signals: a score out of 100, a "confidence" percentage, a star rating. These numbers look precise, but they can mean very different things. This guide explains the common types of signal score, what "confluence" means, and the questions worth asking before you give any score weight.</p>
+
+<h2>What a trading signal is</h2>
+<p>A trading signal is the output of a rule or model applied to market data. A simple example: "label the coin BUY when the 7-period moving average is above the 25-period moving average and volume is above its recent average." The output is usually a direction (buy, sell, or no action) plus some supporting information. A signal describes what the rules see in the data right now. It is not knowledge of what price will do next.</p>
+
+<h2>Three kinds of signal score</h2>
+<h3>1. Probability-style scores</h3>
+<p>Some scores claim to be a probability, for example "72% chance this trade hits its target." For a number like that to mean anything, it has to be calibrated: across many past signals that were given 72%, about 72% should have hit the target, measured on data the model was not built on, and after realistic costs. Without published evidence of that kind, a percentage is just a number formatted to look like a probability.</p>
+<h3>2. Composite or agreement scores</h3>
+<p>A composite score combines several inputs into one number. Each input (for example trend, momentum, volatility and liquidity) is converted to a common scale, given a weight, and added up. A high composite score means many inputs line up with the conditions the model looks for. It says nothing directly about the chance of profit.</p>
+<h3>3. "Confidence" labels</h3>
+<p>Words like "strong", "high confidence" or "premium" are often attached to one of the two types above. The word itself adds no information. What matters is how the number behind it is built and whether it has been tested.</p>
+
+<h2>What confluence means</h2>
+<p>Confluence is the idea that a setup is more interesting when several independent pieces of evidence point the same way: for example, an uptrend on the higher timeframe, momentum turning up on the lower timeframe, and rising trading volume. Composite scores are a way of putting a number on confluence.</p>
+<p>The catch is the word <em>independent</em>. Most popular indicators, including RSI, MACD and moving averages, are calculated from the same closing prices. When the price has risen for several candles, all of them tend to turn positive together. "Five indicators agree" can be closer to one observation counted five times. Inputs built from different data, such as volume or the range of each candle, add more genuinely separate information than another price-based oscillator.</p>
+
+<h2>Questions to ask about any signal score</h2>
+<ol>
+  <li><strong>What are the inputs?</strong> If the provider won't say what goes into the score at all, you can't judge what it measures.</li>
+  <li><strong>What does the scale mean?</strong> Is it a probability, a weighted sum, or a ranking? Is 80 twice as good as 40, or just higher?</li>
+  <li><strong>Is the direction label separate from the score?</strong> In many systems, the BUY/SELL label and the score come from different rules. A high score does not necessarily mean a strong BUY.</li>
+  <li><strong>Is there a track record, and what kind?</strong> Results from live, executed trades are different from simulated or back-tested results. Simulated results usually leave out fees, slippage and the effect of real orders on price.</li>
+  <li><strong>Which timeframe?</strong> A score calculated on 1-hour candles describes a much shorter horizon than one on daily candles.</li>
+  <li><strong>Is anyone promising returns?</strong> US regulators have warned that "AI" trading tools promising high or guaranteed returns are a common feature of fraud. See the CFTC and SEC advisories in the sources below.</li>
+</ol>
+
+<h2>How to use a score sensibly</h2>
+<p>Treat a score as a summary of current conditions, not as a forecast. Look at the individual inputs behind it, since a middling score can hide one input that matters a lot to you, such as very low liquidity. Compare the score with the broader <a href="crypto-market-regime-trending-vs-ranging.html">market regime</a> and with <a href="crypto-volatility-and-liquidity.html">volatility and liquidity</a>. Above all, any decision about risk, position size and exits stays with you.</p>
+
+<div class="app-note">
+  <h2>The score in TradePulse</h2>
+  <p>In the TradePulse app, every BUY, SELL and Watchlist signal has a 0–100 score that shows how strongly the model's inputs agree. It is a composite score, not a probability of profit. Its inputs are trend (from moving averages), volatility, liquidity, RSI and MACD momentum, and the app shows RSI, trend strength, volatility and liquidity next to each signal so you can see them individually. The BUY, SELL or Watchlist label comes from separate rules, so it is worth reading the label and the score together.</p>
+  <p>The models behind TradePulse are rule-based and statistical; they do not use machine learning. Its "AI Positions" are simulated, not real-money trades.</p>
+  <p><a href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-learn-score&amp;mt=8" data-ct="web-learn-score">TradePulse AI on the App Store</a></p>
+</div>
+
+        <section class="related">
+          <h2>Related guides</h2>
+          <ul>
+            <li><a href="what-is-rsi-crypto.html">What is RSI in crypto?</a></li>
+            <li><a href="crypto-market-regime-trending-vs-ranging.html">Trending vs ranging markets</a></li>
+            <li><a href="crypto-volatility-and-liquidity.html">Volatility and liquidity</a></li>
+          </ul>
+        </section>
+
+        <section class="sources">
+          <h2>Sources and further reading</h2>
+          <ul>
+            <li><a href="https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/relative-strength-index-rsi" rel="noopener">StockCharts ChartSchool: Relative Strength Index (RSI)</a></li>
+            <li><a href="https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/macd-moving-average-convergence-divergence-oscillator" rel="noopener">StockCharts ChartSchool: MACD</a></li>
+            <li><a href="https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-overlays/moving-averages-simple-and-exponential" rel="noopener">StockCharts ChartSchool: Moving Averages, Simple and Exponential</a></li>
+            <li><a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/AITradingBots.html" rel="noopener">CFTC Customer Advisory: AI Won&#x27;t Turn Trading Bots into Money Machines</a></li>
+            <li><a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/artificial-intelligence-fraud" rel="noopener">SEC Investor.gov: Artificial Intelligence (AI) and Investment Fraud, Investor Alert</a></li>
+            <li><a href="https://www.investor.gov/additional-resources/spotlight/crypto-assets" rel="noopener">SEC Investor.gov: Crypto Assets</a></li>
+          </ul>
+        </section>
+
+        <div class="notice" style="margin-top:36px">
+          <p>This guide is general education, not financial, investment or trading advice. Indicators describe past prices and do not predict future ones. Crypto trading, especially with leverage, carries a high risk of loss. Intended for adults 18+.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="footer-brand" href=".././">
+        <img src="../assets/icons/icon-192.png" alt="" width="24" height="24" />
+        TradePulse AI
+      </a>
+      <div class="footer-links">
+        <a href=".././">Home</a>
+        <a href="../learn/">Learn</a>
+        <a href="../support.html">Support</a>
+        <a href="../privacy.html">Privacy Policy</a>
+      </div>
+      <p class="footer-fine">© <span id="year">2026</span> TradePulse AI. Information and education only, not financial advice. AI Positions are simulated. Crypto trading involves risk. 18+.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    var nav = document.getElementById('siteNav');
+    var onScroll = function () { nav.classList.toggle('is-scrolled', window.scrollY > 8); };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  </script>
+</body>
+</html>

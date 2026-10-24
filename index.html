@@ -3,34 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TradePulse AI — Your AI Trading Copilot</title>
-  <meta name="description" content="TradePulse AI scores crypto BUY/SELL signals in real time, tracks every open position live, and explains every trade with entry, target, and stop-loss — before you ever place it." />
+  <title>TradePulse AI: Crypto Signals &amp; Position Tracker for iPhone</title>
+  <meta name="description" content="Free iPhone app: crypto BUY/SELL signals with RSI, trend, volatility and liquidity, a 0–100 agreement score, simulated model positions and a private position tracker." />
   <meta name="theme-color" content="#05060d" />
-  <link rel="canonical" href="https://tradepulseai.app/" />
+  <meta name="apple-itunes-app" content="app-id=6756778055" />
+  <link rel="canonical" href="https://www.tradepulseai.app/" />
   <link rel="icon" type="image/png" href="assets/icons/favicon-32.png" />
   <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="TradePulse AI" />
-  <meta property="og:title" content="TradePulse AI — Your AI Trading Copilot" />
-  <meta property="og:description" content="Real-time signals, live positions, and full performance history — all in one place." />
-  <meta property="og:url" content="https://tradepulseai.app/" />
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="TradePulse AI — Your AI Trading Copilot" />
-  <meta name="twitter:description" content="Real-time signals, live positions, and full performance history — all in one place." />
+  <meta property="og:title" content="TradePulse AI: Crypto Signal Scores &amp; Position Tracker" />
+  <meta property="og:description" content="Crypto signals with the indicators behind them, simulated model positions and your own position tracking. iPhone and iPad. Not financial advice." />
+  <meta property="og:url" content="https://www.tradepulseai.app/" />
+  <meta property="og:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="TradePulse AI app icon next to a simulated position card and a signal card" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="TradePulse AI: Crypto Signal Scores &amp; Position Tracker" />
+  <meta name="twitter:description" content="Crypto signals with the indicators behind them, simulated model positions and your own position tracking. Not financial advice." />
+  <meta name="twitter:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
 
   <link rel="stylesheet" href="style.css" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "MobileApplication",
-    "name": "TradePulse AI",
-    "operatingSystem": "iOS",
-    "applicationCategory": "FinanceApplication",
-    "description": "TradePulse AI scores crypto BUY/SELL signals in real time, tracks open positions live, and explains every trade with entry, target, and stop-loss.",
-    "url": "https://tradepulseai.app/",
-    "publisher": { "@type": "Organization", "name": "TradePulse AI" }
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tradepulseai.app/#website",
+        "name": "TradePulse AI",
+        "url": "https://www.tradepulseai.app/",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "MobileApplication",
+        "@id": "https://www.tradepulseai.app/#app",
+        "name": "TradePulse: Crypto Signals AI",
+        "alternateName": "TradePulse AI",
+        "operatingSystem": "iOS 17.0 or later, iPadOS 17.0 or later",
+        "applicationCategory": "FinanceApplication",
+        "description": "Crypto market signals (BUY, SELL and Watchlist) with a 0–100 score showing how strongly the model's inputs agree, RSI, trend strength, volatility and liquidity, simulated model positions (no real money) and on-device tracking of positions you hold elsewhere. Information only, not financial advice.",
+        "url": "https://www.tradepulseai.app/",
+        "installUrl": "https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055",
+        "image": "https://www.tradepulseai.app/assets/icons/icon-512.png",
+        "screenshot": [
+          "https://www.tradepulseai.app/assets/img/screen_01_home.webp",
+          "https://www.tradepulseai.app/assets/img/screen_04_signals.webp",
+          "https://www.tradepulseai.app/assets/img/screen_03_ai_positions.webp"
+        ],
+        "inLanguage": ["en", "fr", "de", "ja", "ko", "pt", "es", "tr"],
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free download. TradePulse Pro is an optional auto-renewing monthly in-app subscription."
+        }
+      }
+    ]
   }
   </script>
 </head>
@@ -41,18 +73,19 @@
 
   <header class="nav" id="siteNav">
     <div class="wrap">
-      <a class="brand" href="#main">
+      <a class="brand" href="./">
         <img src="assets/icons/icon-192.png" alt="" width="30" height="30" />
         <span class="word">TradePulse <em>AI</em></span>
       </a>
 
       <ul class="nav-links">
         <li><a href="#signals">Signals</a></li>
-        <li><a href="#trust">How it works</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="learn/">Learn</a></li>
         <li><a href="#faq">FAQ</a></li>
       </ul>
 
-      <a class="badge-link is-small" href="https://apps.apple.com/us/app/tradepulse-ai/id6756778055" aria-label="Download on the App Store">
+      <a class="badge-link is-small" href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-home&amp;mt=8" data-ct="web-home" aria-label="Download TradePulse AI on the App Store">
         <img src="assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
       </a>
     </div>
@@ -62,21 +95,21 @@
     <section class="hero">
       <div class="wrap hero-grid">
         <div class="hero-copy">
-          <p class="kicker">Now on the App Store</p>
-          <h1>Your AI<br />Trading Copilot.</h1>
-          <p class="lede">Real-time signals, positions, and performance — all in one place. TradePulse AI reads the market so you don't have to guess.</p>
+          <p class="kicker">iPhone &amp; iPad · Free download</p>
+          <h1>Crypto signals, with the indicators shown.</h1>
+          <p class="lede">TradePulse shows BUY, SELL and Watchlist signals together with the indicators behind them, simulated model positions, and a private tracker for positions you hold elsewhere. Information and education only, not financial advice.</p>
 
           <div class="hero-actions">
-            <a class="badge-link is-large" href="https://apps.apple.com/us/app/tradepulse-ai/id6756778055" aria-label="Download on the App Store">
+            <a class="badge-link is-large" href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-home&amp;mt=8" data-ct="web-home" aria-label="Download TradePulse AI on the App Store">
               <img src="assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
             </a>
-            <a class="btn-ghost" href="#signals">See it in action</a>
+            <a class="btn-ghost" href="#how">How it works</a>
           </div>
-          <p class="hero-note">Free to download · iPhone &amp; iPad</p>
+          <p class="hero-note">Free download with an optional Pro subscription · iOS 17 or later · 18+</p>
         </div>
 
         <div class="hero-visual reveal">
-          <img src="assets/img/01_hero_dashboard.webp" alt="TradePulse AI dashboard showing today's performance, active positions, and recent closed trades" width="900" height="1556" />
+          <img src="assets/img/screen_01_home.webp" alt="TradePulse home screen listing open simulated AI positions, recent closed ones and a label reading simulated, not real-money trades" width="900" height="1957" />
         </div>
       </div>
     </section>
@@ -85,19 +118,19 @@
       <div class="wrap">
         <div class="strip-item">
           <div class="value">RSI · Trend · Volatility · Liquidity</div>
-          <div class="label">Every score, explained</div>
+          <div class="label">Shown on every signal</div>
         </div>
         <div class="strip-item">
-          <div class="value">Entry, Target &amp; Stop-Loss</div>
-          <div class="label">On every signal</div>
+          <div class="value">0–100 agreement score</div>
+          <div class="label">Not a probability of profit</div>
         </div>
         <div class="strip-item">
-          <div class="value">Updated by the second</div>
-          <div class="label">Live position tracking</div>
+          <div class="value">Simulated AI Positions</div>
+          <div class="label">No real money traded</div>
         </div>
         <div class="strip-item">
-          <div class="value">iPhone &amp; iPad</div>
-          <div class="label">Built natively for iOS</div>
+          <div class="value">Never places trades</div>
+          <div class="label">Your positions stay on device</div>
         </div>
       </div>
     </section>
@@ -105,12 +138,13 @@
     <section class="feature" id="signals">
       <div class="wrap feature-grid">
         <div class="feature-media feature-media--blue reveal">
-          <img src="assets/img/02_ai_buy_signals.webp" alt="TradePulse AI buy signals list, each scored 0 to 100 with a strength rating" width="900" height="1556" loading="lazy" />
+          <img src="assets/img/screen_04_signals.webp" alt="TradePulse signals list: BUY signals for several coins, each with a 0 to 100 score, the price at signal and the move since" width="900" height="1957" loading="lazy" />
         </div>
         <div class="feature-copy reveal">
           <p class="kicker">Signals</p>
-          <h2>Never miss a move.</h2>
-          <p>AI-scored BUY signals the moment they qualify — ranked by strength, so you know which ones matter most.</p>
+          <h2>Signals you can read.</h2>
+          <p>BUY, SELL and Watchlist signals for a list of major crypto futures pairs, recalculated every hour on 1-hour candles. Each one shows RSI, trend strength, volatility and liquidity, the market regime and timeframe, and the price at the signal next to the current futures price.</p>
+          <p>The 0–100 score shows how strongly the model's inputs agree. It is not a probability of profit, and a high score does not mean a trade will work. <a href="learn/crypto-signal-score-confluence.html">How to read a signal score</a>.</p>
         </div>
       </div>
     </section>
@@ -118,12 +152,13 @@
     <section class="feature is-reversed">
       <div class="wrap feature-grid">
         <div class="feature-media feature-media--gold reveal">
-          <img src="assets/img/03_signal_detail.webp" alt="TradePulse AI signal detail screen showing a 92 strong confidence score, take profit, stop loss, RSI, trend strength, volatility and liquidity" width="900" height="1556" loading="lazy" />
+          <img src="assets/img/screen_03_ai_positions.webp" alt="TradePulse AI Positions tab with open simulated positions, each showing entry, current price, stop loss, take profit and time exit" width="900" height="1957" loading="lazy" />
         </div>
         <div class="feature-copy reveal">
-          <p class="kicker">Transparency</p>
-          <h2>Every signal, fully explained.</h2>
-          <p>Entry, target, and stop-loss — before you ever place a trade. No black box: every score breaks down into RSI, trend strength, volatility, and liquidity.</p>
+          <span class="tag-sim">Simulated</span>
+          <p class="kicker">AI Positions</p>
+          <h2>See what the models are doing.</h2>
+          <p>AI Positions are opened by TradePulse's models in simulation. No real money is traded. Each one shows its entry, the current price, its return before fees, and its take-profit, stop-loss or time exit. Closed positions keep their result, losses included.</p>
         </div>
       </div>
     </section>
@@ -131,12 +166,12 @@
     <section class="feature">
       <div class="wrap feature-grid">
         <div class="feature-media feature-media--blue reveal">
-          <img src="assets/img/04_trades_open.webp" alt="TradePulse AI open positions screen with live entry price, current price, and PnL for each trade" width="900" height="1556" loading="lazy" />
+          <img src="assets/img/screen_02_position_detail.webp" alt="TradePulse simulated position detail with a Why this position explanation, a live position summary and the model's levels" width="900" height="1957" loading="lazy" />
         </div>
         <div class="feature-copy reveal">
-          <p class="kicker">Positions</p>
-          <h2>Track every trade, live.</h2>
-          <p>Real-time PnL on every open position, updated by the second — entry, size, leverage, target, and stop, all in view at once.</p>
+          <p class="kicker">Why this position? · Pro</p>
+          <h2>A plain-language reason.</h2>
+          <p>For each simulated position, Pro shows a simplified description of the kind of market evidence behind its opening, plus a summary of what is happening to it now: price versus entry, levels and time open. It does not reveal the model's exact rules.</p>
         </div>
       </div>
     </section>
@@ -144,77 +179,84 @@
     <section class="feature is-reversed">
       <div class="wrap feature-grid">
         <div class="feature-media feature-media--gold reveal">
-          <img src="assets/img/05_trades_closed.webp" alt="TradePulse AI closed trades history showing win rate, total PnL, and per-trade results" width="900" height="1556" loading="lazy" />
+          <img src="assets/img/screen_05_my_positions.webp" alt="TradePulse My Positions tab with positions entered by the user, showing entry, live price, value and profit or loss in USDT" width="900" height="1957" loading="lazy" />
         </div>
         <div class="feature-copy reveal">
-          <p class="kicker">History</p>
-          <h2>A record you can check.</h2>
-          <p>Every closed trade, logged — entry, exit, ROI, and holding time. Nothing hidden, nothing summarized away.</p>
+          <p class="kicker">My Positions</p>
+          <h2>Track what you hold elsewhere.</h2>
+          <p>Log a position you hold on an exchange: symbol, direction, entry, size, and optionally leverage, take profit and stop loss. TradePulse shows its live profit or loss from public futures prices. Your entries are stored only on your device, and TradePulse never places, copies or manages trades.</p>
         </div>
       </div>
     </section>
 
-    <section class="more">
-      <div class="wrap">
-        <div class="more-grid">
-          <div class="more-card reveal">
-            <div class="more-media">
-              <img src="assets/img/06_ai_market_scanning.webp" alt="TradePulse AI scanning the market with a countdown to the next scan and an option to enable notifications" width="900" height="1556" loading="lazy" />
-            </div>
-            <div class="more-copy">
-              <p class="kicker">Always on</p>
-              <h3>Always watching the market.</h3>
-              <p>The model keeps scanning in the background, even on quiet days. Turn on notifications and you won't need to check back at all.</p>
-            </div>
-          </div>
-          <div class="more-card reveal">
-            <div class="more-media">
-              <img src="assets/img/07_premium_features.webp" alt="TradePulse AI performance history screen with Today, Yesterday, 7 Days, 30 Days and All Time ranges" width="900" height="1556" loading="lazy" />
-            </div>
-            <div class="more-copy">
-              <p class="kicker">TradePulse Pro</p>
-              <h3>Unlock the full picture.</h3>
-              <p>Complete performance history, every range, every trade. Core signals are free — Pro unlocks full history, alerts, and deeper insights.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="trust" id="trust">
+    <section class="trust" id="how">
       <div class="wrap">
         <div class="trust-head reveal">
           <p class="kicker">How it works</p>
-          <h2>Built to be understood, not just trusted.</h2>
-          <p class="lede">Every score you see traces back to real technical analysis — not a mystery algorithm.</p>
+          <h2>What is behind each signal.</h2>
+          <p class="lede">Every score comes from standard technical indicators calculated from public market data.</p>
         </div>
 
         <div class="trust-grid reveal">
           <div class="trust-card c-rsi">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 12h4l2.5-7L13 19l2.5-7H22" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M2 12h4l2.5-7L13 19l2.5-7H22" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <h3>RSI</h3>
-            <p>Momentum, measured — is a move overextended or just getting started.</p>
+            <p>14-period momentum on a 0–100 scale. <a href="learn/what-is-rsi-crypto.html">What RSI measures</a>.</p>
           </div>
           <div class="trust-card c-trend">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 7h7v7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-            <h3>Trend Strength</h3>
-            <p>How convincingly price is moving in one direction.</p>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 7h7v7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Trend &amp; regime</h3>
+            <p>Direction and strength from moving averages. <a href="learn/crypto-market-regime-trending-vs-ranging.html">Trending vs ranging</a>.</p>
           </div>
           <div class="trust-card c-vol">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h3l2-8 4 16 2-8h7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 12h3l2-8 4 16 2-8h7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
             <h3>Volatility</h3>
-            <p>How much a symbol is really moving right now.</p>
+            <p>How far price typically moves per candle. <a href="learn/crypto-volatility-and-liquidity.html">Volatility explained</a>.</p>
           </div>
           <div class="trust-card c-liq">
-            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg></div>
+            <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 8-7 9-4-1-7-4.5-7-9V6l7-3z"/></svg></div>
             <h3>Liquidity</h3>
-            <p>Whether there's real depth behind the move.</p>
+            <p>How much is actually trading. <a href="learn/crypto-volatility-and-liquidity.html">Liquidity explained</a>.</p>
           </div>
         </div>
 
-        <div class="trust-foot reveal">
-          <p class="disclaimer">TradePulse AI is an informational tool, not financial advice. Cryptocurrency trading involves risk, and past performance does not guarantee future results. See our <a href="privacy.html">Privacy Policy</a> for how your data is handled.</p>
+        <ul class="how-list reveal" style="margin-top:40px">
+          <li><strong>What the "AI" models are.</strong> TradePulse's models are rule-based and statistical: fixed rules and thresholds applied to price and volume data, with thresholds chosen from analysis of historical market data. They do not use machine learning or a language model, and they do not learn from your activity.</li>
+          <li><strong>Signals.</strong> Recalculated every hour for each covered pair. A label (BUY, SELL or Watchlist) comes with a 0–100 score that shows how strongly the inputs agree. The score is not a forecast or a probability of profit.</li>
+          <li><strong>AI Positions.</strong> Simulated positions opened by the models, shown before fees, with no real money involved. Simulated results are not executed trades and do not predict future results.</li>
+          <li><strong>My Positions.</strong> Positions you enter yourself, kept on your device. TradePulse never connects to your exchange account or trades for you.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="faq-section" id="pro">
+      <div class="wrap">
+        <div class="faq-head reveal">
+          <p class="kicker">Free and Pro</p>
+          <h2>What is included.</h2>
         </div>
+        <div class="plans reveal">
+          <div class="plan">
+            <h3>Free</h3>
+            <ul>
+              <li>The first 3 signals in each signal list</li>
+              <li>The 2 most recent open and 2 most recent closed AI Positions</li>
+              <li>Up to 3 positions in My Positions</li>
+              <li>BUY and SELL signal notifications</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <h3>TradePulse Pro</h3>
+            <ul>
+              <li>Full signal lists</li>
+              <li>Every open and closed AI Position, with details</li>
+              <li>"Why this position?" explanations</li>
+              <li>AI Performance for the simulated positions</li>
+              <li>Unlimited My Positions</li>
+            </ul>
+          </div>
+        </div>
+        <p class="disclaimer" style="margin:24px auto 0;text-align:center">TradePulse Pro is an optional auto-renewing monthly subscription. The price for your region is shown in the app before you subscribe, and eligible new subscribers may be offered a free trial. Manage or cancel in your Apple ID settings.</p>
       </div>
     </section>
 
@@ -228,51 +270,90 @@
         <div class="faq-list reveal">
           <details>
             <summary>Does TradePulse AI give financial advice?
-              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </summary>
-            <p>No. TradePulse AI is an informational and educational tool that analyzes market data. It does not constitute financial advice, and every trading decision remains yours.</p>
+            <p>No. TradePulse AI provides market information and education only. It does not know your finances or goals, it does not give personal recommendations, and every decision is your own.</p>
           </details>
 
           <details>
-            <summary>What actually powers the signal score?
-              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <summary>What does the 0–100 signal score mean?
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </summary>
-            <p>Every score is built from RSI, trend strength, volatility, and liquidity, combined into a single 0–100 confidence rating with a suggested entry, target, and stop-loss.</p>
+            <p>It shows how strongly the model's inputs (trend, volatility, liquidity, RSI and MACD momentum) line up with the conditions the model looks for. It is not a probability of profit and not a prediction. See <a href="learn/crypto-signal-score-confluence.html">how to read a signal score</a>.</p>
+          </details>
+
+          <details>
+            <summary>Is "AI" in TradePulse machine learning?
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </summary>
+            <p>No. "AI Positions" and "AI Performance" are feature names for the output of rule-based, statistical models: fixed rules and thresholds applied to price and volume data. They do not use machine learning or a language model.</p>
+          </details>
+
+          <details>
+            <summary>Are AI Positions real trades?
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </summary>
+            <p>No. They are simulated positions opened by the models. No real money is traded, returns are shown before fees, and simulated results do not guarantee or predict future results.</p>
           </details>
 
           <details>
             <summary>Is TradePulse AI free?
-              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </summary>
-            <p>Yes — signals, live positions, and today's performance are free. TradePulse Pro is an optional upgrade that unlocks full performance history and alerts.</p>
+            <p>The app is free to download and includes a limited set of signals, AI Positions and My Positions. TradePulse Pro is an optional monthly subscription that unlocks full lists, position details, "Why this position?" and AI Performance.</p>
+          </details>
+
+          <details>
+            <summary>Does TradePulse connect to my exchange or place trades?
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </summary>
+            <p>No. There is no exchange login. Positions you add to My Positions are stored on your device, and TradePulse never places, copies or manages trades.</p>
           </details>
 
           <details>
             <summary>Is my data private?
-              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </summary>
-            <p>We don't sell, rent, or trade your personal data. See the <a href="privacy.html">Privacy Policy</a> for the full details on what's collected.</p>
+            <p>We don't sell, rent, or trade your personal data. See the <a href="privacy.html">Privacy Policy</a> for details on what is collected.</p>
           </details>
 
           <details>
             <summary>Which devices does it run on?
-              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
             </summary>
-            <p>TradePulse AI is built natively for iPhone and iPad, available now on the App Store.</p>
+            <p>iPhone and iPad running iOS or iPadOS 17 or later. The app is available in English, French, German, Japanese, Korean, Portuguese, Spanish and Turkish.</p>
           </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="learn-section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="kicker">Learn</p>
+          <h2>Indicator guides</h2>
+          <p>Plain-language explanations of the indicators shown in the app.</p>
+        </div>
+        <div class="learn-grid reveal">
+          <a class="learn-card" href="learn/what-is-rsi-crypto.html"><h3>What is RSI in crypto?</h3><p>How the Relative Strength Index is calculated and how to read it.</p></a>
+          <a class="learn-card" href="learn/crypto-signal-score-confluence.html"><h3>How to read a signal score</h3><p>Composite scores, confluence and what a score can't tell you.</p></a>
+          <a class="learn-card" href="learn/crypto-market-regime-trending-vs-ranging.html"><h3>Trending vs ranging markets</h3><p>What a market regime is and how it changes indicator readings.</p></a>
+          <a class="learn-card" href="learn/crypto-volatility-and-liquidity.html"><h3>Volatility and liquidity</h3><p>ATR, volume, spreads and slippage, explained.</p></a>
         </div>
       </div>
     </section>
 
     <section class="closing">
       <div class="wrap">
-        <a class="closing-card-link reveal" href="https://apps.apple.com/us/app/tradepulse-ai/id6756778055" aria-label="Download TradePulse AI on the App Store">
-          <img class="closing-card" src="assets/img/08_ending_card.webp" alt="TradePulse AI — Your AI Trading Copilot" width="700" height="1521" loading="lazy" />
-        </a>
-        <h2>Trade with clarity.</h2>
-        <p class="lede">Download TradePulse AI and see what the market is actually doing.</p>
+        <h2>See the market data for yourself.</h2>
+        <p class="lede">Free to download on iPhone and iPad.</p>
         <div class="closing-actions">
-          <a class="text-link" href="https://apps.apple.com/us/app/tradepulse-ai/id6756778055">Download on the App Store <span aria-hidden="true">→</span></a>
+          <a class="badge-link is-large" href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-home&amp;mt=8" data-ct="web-home" aria-label="Download TradePulse AI on the App Store">
+            <img src="assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
+          </a>
+        </div>
+        <div class="notice" style="margin-top:40px;text-align:left">
+          <p>TradePulse AI provides information and education only and is not financial, investment or trading advice. Signals, scores and simulated AI Positions do not guarantee any result, and past or simulated performance does not predict future results. Crypto trading, especially with leverage, carries a high risk of loss. All decisions are your own. Intended for adults 18+.</p>
         </div>
       </div>
     </section>
@@ -280,15 +361,16 @@
 
   <footer>
     <div class="wrap">
-      <a class="footer-brand" href="#main">
+      <a class="footer-brand" href="./">
         <img src="assets/icons/icon-192.png" alt="" width="24" height="24" />
         TradePulse AI
       </a>
       <div class="footer-links">
+        <a href="learn/">Learn</a>
         <a href="support.html">Support</a>
         <a href="privacy.html">Privacy Policy</a>
       </div>
-      <p class="footer-fine">© <span id="year"></span> TradePulse AI. All rights reserved. Not financial advice — cryptocurrency trading involves risk.</p>
+      <p class="footer-fine">© <span id="year">2026</span> TradePulse AI. Information and education only, not financial advice. AI Positions are simulated. Crypto trading involves risk. 18+.</p>
     </div>
   </footer>
 

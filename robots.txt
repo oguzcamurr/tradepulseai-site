@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tradepulseai.app/sitemap.xml
+Sitemap: https://www.tradepulseai.app/sitemap.xml

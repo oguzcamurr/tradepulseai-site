@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crypto Volatility and Liquidity Explained: ATR, Spread, Slippage</title>
+  <meta name="description" content="What volatility and liquidity mean in crypto markets: standard deviation and ATR, trading volume, bid-ask spread, order book depth and slippage, and how they interact." />
+  <meta name="theme-color" content="#05060d" />
+  <meta name="apple-itunes-app" content="app-id=6756778055" />
+  <link rel="canonical" href="https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html" />
+  <link rel="icon" type="image/png" href="../assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png" />
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="TradePulse AI" />
+  <meta property="og:title" content="Crypto Volatility and Liquidity Explained: ATR, Spread, Slippage" />
+  <meta property="og:description" content="What volatility and liquidity mean in crypto markets: standard deviation and ATR, trading volume, bid-ask spread, order book depth and slippage, and how they interact." />
+  <meta property="og:url" content="https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html" />
+  <meta property="og:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Crypto Volatility and Liquidity Explained: ATR, Spread, Slippage" />
+  <meta name="twitter:description" content="What volatility and liquidity mean in crypto markets: standard deviation and ATR, trading volume, bid-ask spread, order book depth and slippage, and how they interact." />
+  <meta name="twitter:image" content="https://www.tradepulseai.app/assets/img/og-image.jpg" />
+  <link rel="stylesheet" href="../style.css" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html#article",
+      "headline": "Volatility and liquidity in crypto, explained",
+      "description": "What volatility and liquidity mean in crypto markets: standard deviation and ATR, trading volume, bid-ask spread, order book depth and slippage, and how they interact.",
+      "url": "https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html",
+      "mainEntityOfPage": "https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html",
+      "datePublished": "2026-10-24",
+      "dateModified": "2026-10-24",
+      "inLanguage": "en",
+      "image": "https://www.tradepulseai.app/assets/img/og-image.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "TradePulse AI",
+        "url": "https://www.tradepulseai.app/"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "TradePulse AI",
+        "url": "https://www.tradepulseai.app/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.tradepulseai.app/assets/icons/icon-512.png"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.tradepulseai.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Learn",
+          "item": "https://www.tradepulseai.app/learn/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Volatility and liquidity",
+          "item": "https://www.tradepulseai.app/learn/crypto-volatility-and-liquidity.html"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav" id="siteNav">
+    <div class="wrap">
+      <a class="brand" href=".././">
+        <img src="../assets/icons/icon-192.png" alt="" width="30" height="30" />
+        <span class="word">TradePulse <em>AI</em></span>
+      </a>
+      <ul class="nav-links">
+        <li><a href=".././#signals">Signals</a></li>
+        <li><a href=".././#how">How it works</a></li>
+        <li><a href="../learn/">Learn</a></li>
+        <li><a href=".././#faq">FAQ</a></li>
+      </ul>
+      <a class="badge-link is-small" href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-learn-volatility&amp;mt=8" data-ct="web-learn-volatility" aria-label="Download TradePulse AI on the App Store">
+        <img src="../assets/img/app_store_badge.png" alt="Download on the App Store" width="480" height="161" />
+      </a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="article-hero">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Home</a> / <a href="./">Learn</a> / <span>Volatility and liquidity</span></nav>
+        <h1>Volatility and liquidity in crypto, explained</h1>
+        <p class="lede">How far price tends to move, how easily you can trade, and why the combination matters for every order.</p>
+        <p class="meta-line">TradePulse AI guides · Published <time datetime="2026-10-24">24 October 2026</time></p>
+      </div>
+    </section>
+
+    <article class="article-body">
+      <div class="wrap">
+<p>Volatility and liquidity are two of the most practical things to understand about any crypto market. Volatility tells you how far price tends to move. Liquidity tells you how easily you can trade without moving the price yourself. Together they shape how wide price swings are, how reliable a stop-loss level is, and how much a trade can cost beyond the quoted price.</p>
+
+<h2>Volatility: how much price moves</h2>
+<p>Volatility is the size of price changes over a period, regardless of direction. A coin that moves 5% a day is more volatile than one that moves 1% a day, whether those moves are up or down. Crypto assets are generally far more volatile than major stock indices or currencies, and smaller coins are usually more volatile than bitcoin.</p>
+
+<h3>Measuring volatility with standard deviation</h3>
+<p>The statistical approach takes the percentage change of each candle and calculates the standard deviation of those returns. This is often called realised or historical volatility. It is usually annualised for comparison; because crypto trades every day of the year, crypto volatility is typically annualised over 365 days rather than the roughly 252 trading days used for stocks.</p>
+
+<h3>Measuring volatility with ATR</h3>
+<p>Average True Range (ATR), introduced by J. Welles Wilder Jr. in 1978, measures the typical size of each candle's range, including gaps. For each candle, the true range is the largest of:</p>
+<ul>
+  <li>the current high minus the current low,</li>
+  <li>the current high minus the previous close (absolute value),</li>
+  <li>the current low minus the previous close (absolute value).</li>
+</ul>
+<p>ATR is the average of the true range over a period, usually 14 candles. It is expressed in price units, so an ATR of 1,000 on bitcoin and 0.05 on a small coin can't be compared directly. Dividing ATR by the current price (ATR percent) makes different assets comparable.</p>
+
+<h3>Why volatility matters</h3>
+<ul>
+  <li><strong>Stop distance.</strong> A stop-loss placed closer than the normal swing of the market is likely to be hit by noise. Many traders size stops in multiples of ATR for this reason.</li>
+  <li><strong>Position size.</strong> The same position size carries more risk in a more volatile market. Leverage multiplies this.</li>
+  <li><strong>Indicator behaviour.</strong> High volatility makes oscillators such as <a href="what-is-rsi-crypto.html">RSI</a> swing between extremes more often.</li>
+</ul>
+
+<h2>Liquidity: how easily you can trade</h2>
+<p>Liquidity is the ability to buy or sell an asset quickly without moving its price much. A liquid market has many buyers and sellers, tight prices and plenty of size available near the current price. An illiquid market may show an attractive quoted price that disappears as soon as you try to trade size.</p>
+
+<h3>Ways to gauge liquidity</h3>
+<ul>
+  <li><strong>Trading volume:</strong> how much has traded over a period, often measured in USDT or USD. Higher volume usually, but not always, means better liquidity.</li>
+  <li><strong>Bid-ask spread:</strong> the gap between the best price a buyer is offering and the best price a seller is asking. Wider spreads mean a higher cost every time you trade.</li>
+  <li><strong>Order book depth:</strong> how much size is waiting at prices near the current one. Shallow books mean larger orders move the price.</li>
+</ul>
+<p>Volume and depth are not the same thing. A market can show high volume over a day yet have little size resting in the order book at a given moment.</p>
+
+<h3>Slippage</h3>
+<p>Slippage is the difference between the price you expected and the price you actually got. It grows when liquidity is thin, when markets move fast, and when orders are large relative to the book. Stop-loss orders that trigger market orders are especially exposed: in a fast move through a thin book, the fill can be well beyond the stop level.</p>
+
+<h2>How volatility and liquidity interact</h2>
+<p>The riskiest combination is high volatility with low liquidity: price swings are large and each swing is harder to trade at a fair price. Liquidity also changes over time. It is often thinner during weekends, holidays and off-peak hours, and it can drop sharply during sudden market moves, exactly when many traders want to exit. For leveraged futures, regulators such as the CFTC note that leverage magnifies losses and can lead to positions being closed out quickly; see the sources below.</p>
+
+<div class="app-note">
+  <h2>Volatility and liquidity in TradePulse</h2>
+  <p>Each signal in the TradePulse app shows a volatility score and a liquidity score on a 0–100 scale. The volatility score is based on ATR relative to the recent average price on the signal's timeframe. The liquidity score is based on recent traded value (volume multiplied by price) in USDT. Both are inputs to the signal's 0–100 score, which shows how strongly the model's inputs agree and is not a probability of profit.</p>
+  <p><a href="https://apps.apple.com/app/tradepulse-crypto-signals-ai/id6756778055?ct=web-learn-volatility&amp;mt=8" data-ct="web-learn-volatility">TradePulse AI on the App Store</a></p>
+</div>
+
+        <section class="related">
+          <h2>Related guides</h2>
+          <ul>
+            <li><a href="what-is-rsi-crypto.html">What is RSI in crypto?</a></li>
+            <li><a href="crypto-signal-score-confluence.html">How to read a signal score</a></li>
+            <li><a href="crypto-market-regime-trending-vs-ranging.html">Trending vs ranging markets</a></li>
+          </ul>
+        </section>
+
+        <section class="sources">
+          <h2>Sources and further reading</h2>
+          <ul>
+            <li>J. Welles Wilder Jr., <em>New Concepts in Technical Trading Systems</em> (Trend Research, 1978).</li>
+            <li><a href="https://chartschool.stockcharts.com/table-of-contents/technical-indicators-and-overlays/technical-indicators/average-true-range-atr-and-average-true-range-percent-atrp" rel="noopener">StockCharts ChartSchool: Average True Range (ATR) and ATR Percent</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Average_true_range" rel="noopener">Wikipedia: Average true range</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Volatility_(finance)" rel="noopener">Wikipedia: Volatility (finance)</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Market_liquidity" rel="noopener">Wikipedia: Market liquidity</a></li>
+            <li><a href="https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/understand_risks_of_virtual_currency.html" rel="noopener">CFTC Customer Advisory: Understand the Risks of Virtual Currency Trading</a></li>
+          </ul>
+        </section>
+
+        <div class="notice" style="margin-top:36px">
+          <p>This guide is general education, not financial, investment or trading advice. Indicators describe past prices and do not predict future ones. Crypto trading, especially with leverage, carries a high risk of loss. Intended for adults 18+.</p>
+        </div>
+      </div>
+    </article>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <a class="footer-brand" href=".././">
+        <img src="../assets/icons/icon-192.png" alt="" width="24" height="24" />
+        TradePulse AI
+      </a>
+      <div class="footer-links">
+        <a href=".././">Home</a>
+        <a href="../learn/">Learn</a>
+        <a href="../support.html">Support</a>
+        <a href="../privacy.html">Privacy Policy</a>
+      </div>
+      <p class="footer-fine">© <span id="year">2026</span> TradePulse AI. Information and education only, not financial advice. AI Positions are simulated. Crypto trading involves risk. 18+.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    var nav = document.getElementById('siteNav');
+    var onScroll = function () { nav.classList.toggle('is-scrolled', window.scrollY > 8); };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  </script>
+</body>
+</html>
